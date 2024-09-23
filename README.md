@@ -8,9 +8,9 @@
 ### Запуск:
 Для загрузки и запуска курса нужно выполнить следующие команды:
 ```
-git clone https://github.com/gavriluk/jenkins-pipeline-workshop
-cd jenkins-pipeline-workshop
-docker-compose up -d
+git clone https://github.com/BosenkoTM/jenkins-workshop.git
+cd jenkins-workshop
+sudo docker compose up -d
 ```
 Просмотр запущенных контейнеров осуществляется командой
 ```docker ps```
@@ -23,7 +23,7 @@ docker-compose up -d
 - Sonar порт: 9000 http://localhost:9000/
 - BitBucket порт: 7990 http://localhost:7990/
 
-### Явки:пароли:
+### пароли:
 :godmode: admin:admin
 
 :hurtrealbad: user:user
